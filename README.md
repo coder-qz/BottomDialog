@@ -1,4 +1,4 @@
-# BottomDialog
+ BottomDialog
 
 ![](https://i.imgur.com/b0WgfLy.jpg)
 
@@ -20,7 +20,7 @@ Step 2. Add the dependency
 
 
 
-##单个添加
+单个添加
 
 
 	   new BottomListDialog.Builder(this, true)
@@ -38,7 +38,7 @@ Step 2. Add the dependency
       }).setOutSideCancelable(false).build().show();
 
 
-##添加集合
+添加集合
 
 
 		List<String> arrayList =  new ArrayList<>();
@@ -53,8 +53,7 @@ Step 2. Add the dependency
                     dialog.dismiss();
                 }).build().show();
 
-##自定义对象
-对象要实现IBottomData接口
+自定义对象 对象要实现IBottomData接口
 
 	 	List<Person> arrayList =  new ArrayList<>();
         arrayList.add(new Person("ios",30));
